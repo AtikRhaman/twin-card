@@ -1,0 +1,856 @@
+/*-----------------------------------------------------------------------------------
+
+    Template Name: Twin Cards 
+    Template URI: http://twincards.com
+    Description: This is html5 template
+    Author: Twin Cards
+    Author URI: http://twincards.com
+    Version: 1.0
+
+-----------------------------------------------------------------------------------
+    
+    CSS INDEX
+    ===================
+
+    1.0.0  Theme Default CSS (body, link color, section etc)
+    1.2.0 Elements CSS
+    2.0  Banner CSS
+    3.0  About CSS
+    4.0  Product & Solutions CSS
+    5.0  Explore Our Services CSS
+    6.0  Program CSS
+    7.0  Client/Merchant-Benefits CSS
+    8.0  Merchant-Benefits CSS
+    9.0  Microcraditors
+    10.0  Copyright CSS
+
+-----------------------------------------------------------------------------------*/
+
+/*----------------------------------------*/
+/*  1.0.0  Theme default CSS
+/*----------------------------------------*/
+html, body {height: 100%;}
+.floatleft {float:left}
+.floatright {float:right}
+.alignleft {float:left;margin-right:15px;margin-bottom: 15px}
+.alignright {float:right;margin-left:15px;margin-bottom: 15px}
+.aligncenter {display:block;margin:0 auto 15px}
+.textleft {text-align: left;}
+.textright {text-align: right;}
+.textcenter {text-align: center;}
+.fontbold {font-weight: bold;}
+a:focus {outline:0px solid}
+img {max-width:100%;height:auto}
+.fix {overflow:hidden}
+p {margin:0 0 15px;}
+h1, h2, h3, h4, h5, h6 {
+  margin: 0 0 10px;
+}
+a {transition: all 0.3s ease 0s;text-decoration:none;}
+a:hover {
+  color: #ec4445;
+  text-decoration: none;
+}
+a:active, a:hover {
+  outline: 0 none;
+}
+ul{
+list-style: outside none none;
+margin: 0;
+padding: 0
+}
+.clear{clear:both}
+body {
+    font-family: 'Roboto', arial, sans-serif;
+}
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+/*----------------------------------------*/
+/*  1.2.0  Elements CSS
+/*----------------------------------------*/
+/* heading */
+h1, .h1{
+    font-size: 65px;
+}
+h2, .h2{
+    font-size: 50px;
+}
+h3, .h3{
+    font-size: 42px;
+}
+h4, .h4{
+    font-size: 30px;
+}
+h5, .h5{
+    font-size: 24px;
+}
+h6, .h6{
+    font-size: 18px;
+}
+/* Font Weight */
+.fw-light { 
+    font-weight: 100;
+}
+.fw-bold { 
+    font-weight: 600;
+}
+/*Theme text color */
+.th-color-grey{
+    color:#1b3039;
+}
+.th-color-orange{
+    color:#faca40;
+}
+.th-color-white{
+    color:#fff;
+}
+/*Theme bg color */
+.th-bg-grey{
+    background:#1b3039; 
+}
+/*----------------------------------------*/
+/*  2.0  Banner CSS
+/*----------------------------------------*/
+.banner-area {
+    background: #6c7c86; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#1b3039, #6c7c86); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#1b3039, #6c7c86); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#1b3039, #6c7c86); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#1b3039, #6c7c86); /* Standard syntax */
+}
+.day { background: url("img/banner-bg-night.jpg") no-repeat scroll center center / cover;}
+.night { background: url("img/banner-bg-night.jpg") no-repeat scroll center center / cover; }
+.logo-area {
+    display: block;
+}
+.logo {
+    padding: 50px 25px 25px 0;
+    width: 150px;
+    z-index: 999;
+}
+.intro-txt {
+    padding-top: 140px;
+}
+.intro-txt h1 {
+    color: #ffffff;
+    font-size: 66px;
+    font-weight: 400;
+}
+.animated-headline {
+    color: #faca40 !important;
+    font-size: 70%;
+}
+.animated-headline b {
+  /*font-weight: 300;*/
+}
+.hero-banner {
+    position: relative;
+}
+.video-frame {
+    /*height: 650px;*/
+    overflow: hidden;
+}
+.video-frame video {
+    width: 100%;
+}
+.hero-banner .going-down {
+    background: #faca40 none repeat scroll 0 0;
+    bottom: 0;
+    color: #000;
+    font-size: 18px;
+    font-weight: 100;
+    height: 185px;
+    left: -58px;
+    line-height: 33px;
+    padding: 15px;
+    position: absolute;
+    width: 119px;
+}
+.going-down-icon{
+    padding: 20px 0 0 27px;
+}
+.going-down a i{
+    color: #000000;
+    -moz-osx-font-smoothing: grayscale;
+    backface-visibility: hidden;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    display: inline-block;
+    position: relative;
+    transform: translateZ(0px);
+    transition-duration: 0.3s;
+    vertical-align: middle;
+    padding: 10px;
+}
+.going-down a i:hover {
+    /*transform: translateY(4px);*/
+    animation-delay: 0s, 0.3s;
+    animation-direction: normal, alternate;
+    animation-duration: 0.3s, 1.5s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1, infinite;
+    animation-name: icon-hang-sink;
+    animation-timing-function: ease-out, ease-in-out;
+}
+@-webkit-keyframes icon-hang-sink {
+  100% {
+    -webkit-transform: translateY(6px);
+    transform: translateY(6px);
+  }
+}
+@keyframes icon-hang-sink {
+  100% {
+    -webkit-transform: translateY(6px);
+    transform: translateY(6px);
+  }
+}
+/*----------------------------------------*/
+/*  3.0  About CSS
+/*----------------------------------------*/
+.intro-area {
+    background: #eeeeee;
+    background-image: url('img/logo-outline.png');
+    background-repeat: no-repeat;
+    background-position: right top;
+    padding: 190px 0;
+    background-size: 65%;
+}
+.intro-highlight {
+    background: #faca40 none repeat scroll 0 0;
+    height: 370px;
+    margin-right: -230px;
+    margin-top: 270px;
+}
+.intro-content {
+    color: #ffffff;
+    background-color: rgba(27, 48, 57, 1);
+    padding: 135px 90px;
+    position: relative;
+    z-index: 1;
+}
+.intro-content::after {
+    background: url("img/intro.jpg") no-repeat center center / cover;
+    bottom: 0;
+    content: "";
+    display: block;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: -1;
+    opacity: 0.25;
+}
+.intro-content h2 {
+    font-weight: 100;
+}
+.intro-content h2 span {
+    color: #faca40;
+    font-weight: 500;
+}
+.intro-content h6 {
+    font-weight: 300;
+    line-height: 44px;
+    font-size: 20px;
+    width: 80%;
+}
+/*----------------------------------------*/
+/*  4.0  Product & Solutions CSS
+/*----------------------------------------*/
+.product-solutions-area{
+    background: #1e3441;
+}
+.single-product-solutions{
+    color: #ffffff;
+    background-color: rgba(27, 48, 57, 1);
+    /*background-color: rgba(0, 0, 0, 1);*/
+    padding: 290px 0;
+    position: relative;
+    z-index: 1;
+}
+.single-product-solutions::after {
+    bottom: 0;
+    content: "";
+    display: block;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: -1;
+}
+.single-product-solutions.digital-cash::after {
+    background: url("img/bg-digital-cash.jpg") no-repeat center center / cover;
+    opacity: 0.6;
+}
+.single-product-solutions.smart-cards::after {
+    background: url("img/bg-smart-cards.jpg") no-repeat center center / cover;
+    opacity: 0.2;
+}
+.single-product-solutions.pay-tags::after {
+    background: url("img/bg-pay-tags.jpg") no-repeat center center / cover;
+    opacity: 0.2;
+}
+.p-s-title {
+    border: 5px solid #faca40;
+    color: #faca40;
+    height: 375px;
+    margin-right: -700px;
+    padding-left: 35px;
+}
+.p-s-title-tb {
+    display: table;
+    height: 100%;
+    width: 100%;
+}
+.p-s-title-tc {
+    display: table-cell;
+    vertical-align: middle;
+}
+.p-s-title h1{
+    font-size: 50px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+.p-s-title h1 span {
+    font-size: 70px;
+    letter-spacing: -1px;
+    font-weight: 900;
+}
+.p-s-content {
+  background-color: rgba(27, 48, 57, 0.9);
+  margin-top: 80px;
+  padding: 60px 70px;
+}
+.p-s-content h5{
+    line-height: 44px;
+    text-align: justify;
+    font-weight: 300;
+    font-size: 18px;
+}
+.product-solutions-carousel {
+    position: relative;
+}
+.product-solutions-carousel .owl-controls .owl-pagination {
+    position: absolute;
+    bottom: 60px;
+    left: 0;
+    right: 0;
+}
+.product-solutions-carousel .owl-controls .owl-pagination .owl-page span{
+    background: rgba(255, 255, 255, 0.5);
+    width: 25px;
+    height: 25px;
+}
+.product-solutions-carousel .owl-controls .owl-buttons div {
+    background: transparent none repeat scroll 0 0;
+    font-size: 44px;
+    opacity: 0.15;
+    position: absolute;
+    top: 43%;
+    transition: all 0.3s ease 0s;
+}
+.product-solutions-carousel .owl-controls .owl-buttons div:hover {
+    opacity: 0.5;
+}
+.product-solutions-carousel .owl-controls .owl-buttons .owl-next {
+    right: 0;
+}
+.product-solutions-carousel .owl-controls .owl-buttons .owl-prev {
+    left: 0;
+}
+/*----------------------------------------*/
+/*  5.0  Explore Our Services CSS
+/*----------------------------------------*/
+.explore-services-area {
+    background: #f7f7f7;
+    padding: 170px 0;
+}
+.explore-services-title h1 {
+    font-weight: 100;
+    text-align: center;
+    color: #1e3441;
+    text-transform: uppercase;
+    font-size: 60px;
+}
+.explore-services-area hr {
+    border-top: 1px solid rgba(30, 52, 65, 0.3);
+}
+.wmg-item {
+    height: 267px !important;
+}
+.wmg-container, .wmg-thumbnail {
+    background: transparent;
+}
+.wmg-thumbnail{
+    line-height: 267px !important;
+}
+.wmg-container.open, .wmg-thumbnail.open {
+  background: transparent;
+}
+.wmg-close {
+    right: 17px;
+    top: 6px;
+}
+.wmg-arrow {
+    border-bottom-color: rgba(27, 48, 57, 0.15);
+}
+.single-service {
+    position: relative;
+}
+.single-service::after {
+    bottom: 28px;
+    content: "";
+    left: 28px;
+    right: 28px;
+    top: 28px;
+    position: absolute;
+    border-left: 2px solid rgba(250, 202, 64, 0.15);
+    border-right: 2px solid rgba(250, 202, 64, 0.15);
+    border-bottom: 2px solid rgba(250, 202, 64, 0.15);
+    transition: 0.4s;
+}
+.single-service::before {
+    bottom: 28px;
+    content: "";
+    left: 30%;
+    right: 28px;
+    top: 28px;
+    position: absolute;
+    border-top: 2px solid rgba(250, 202, 64, 0.15);
+    z-index: 9;
+    transition: 0.4s;
+}
+.single-service-content::after {
+    bottom: 28px;
+    content: "";
+    left: 28px;
+    right: 87%;
+    top: 28px;
+    position: absolute;
+    border-top: 2px solid rgba(250, 202, 64, 0.15);
+    transition: 0.4s;
+}
+.single-service-content::before {
+    bottom: 130px;
+    content: "\e62a";
+    font-family: themify;
+    font-size: 30px;
+    height: 100%;
+    left: 50px;
+    position: absolute;
+    text-align: left;
+    transition: all 0.4s ease 0s;
+    width: 100%;
+    color: rgba(255, 255, 255, 0.5);
+    opacity: 0;
+    transform-origin: 0 0 0 0;
+    transform: scaleY(0.25);
+}
+.single-service:hover::after {
+    border-left: 2px solid rgba(250, 202, 64, 1);
+    border-right: 2px solid rgba(250, 202, 64, 1);
+    border-bottom: 2px solid rgba(250, 202, 64, 1);
+}
+.single-service:hover.single-service::before {
+    border-top: 2px solid rgba(250, 202, 64, 1);
+}
+.single-service:hover .single-service-content::after {
+    border-top: 2px solid rgba(250, 202, 64, 1);
+}
+.single-service:hover .services-number {
+    color: rgba(255, 255, 255, 0.4);
+}
+.single-service:hover .single-service-content::before {
+    opacity: 1;
+    transform: scaleY(1);
+    bottom: -50px;
+}
+.single-service:hover .single-service-content {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+.single-service-content {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    opacity: 1;
+    right: 0;
+    bottom: 0;
+    transform: scale(1);
+    transform-origin: 0 0 0 0;
+    transition: all 0.5s ease 0s;
+}
+.single-service-inner-tb {
+    display: table;
+    height: 100%;
+    width: 100%;
+}
+.single-service-tc {
+    display: table-cell;
+    text-align: right;
+    vertical-align: bottom;
+    padding: 0 45px 25px 0;
+    position: relative;
+}
+.services-number {
+    color: rgba(255, 255, 255, 0.2);
+    font-size: 36px;
+    font-weight: 700;
+    left: 60px;
+    position: absolute;
+    top: 10px;
+    transition: 0.4s;
+}
+.single-service-content h5{
+    line-height: 25px;
+    font-weight: 400;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+/*jportilio*/
+.jprt-content {
+    background: #F5F5F5 none repeat scroll 0 0;
+    color: #1B3039;
+    text-align: left;
+    padding: 25px;
+    border: 10px solid #1B3039;
+}
+.jprt-content h1 {
+    font-size: 36px;
+    font-weight: 300;
+}
+.jprt-content h6 {
+    font-weight: 400;
+    line-height: 33px;
+}
+.jprt-item-title{
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 24px;
+}
+.jprt-item-title span{
+    font-size: 16px;
+}
+.jprt-item:hover .jprt-item-tags {
+    opacity: 0;
+    transition: .3s;
+}
+/*.jprt-hover {
+    background: rgba(250, 202, 64, 0.85);
+}*/
+.jprt-hover {
+    background: rgba(27, 48, 57, 0.9) none repeat scroll 0 0;
+    border: 1px solid #faca40;
+    width: 95%;
+    left: 10px;
+    margin-top: 10px;
+}
+.jprt-item-title {
+    background: transparent;
+    color: #fff;
+}
+.jprt-item-tags {
+  background: rgba(0, 0, 0, 0.3) none repeat scroll 0 0;
+  bottom: -11px;
+  color: #fff;
+  font-size: 21px;
+  font-weight: 300;
+  padding: 20px;
+  position: absolute;
+  width: 95%;
+}
+.jprt-item:nth-child(2n+1) .jprt-caption {
+    background: transparent;
+}
+.jprt-item {
+    background: transparent !important;
+    padding: 10px;
+}
+.jprt-item:nth-child(2n) .jprt-caption {
+  background: transparent;
+}
+.jprt-container {
+    /*margin-bottom: -340px;*/
+}
+/*----------------------------------------*/
+/*  6.0  Program CSS
+/*----------------------------------------*/
+.program-area {
+    padding: 100px 0;
+    position: relative;
+    background-color: #fefaec;
+    background-image: linear-gradient( to right, #fefaec 50%, #ffffff 50%);
+}
+.program-area-title {
+    position: absolute;
+    font-weight: 600;
+    font-size: 150px;
+    color: rgba(27, 48, 57, 0.1);
+    right: 0;
+    top: -50px;
+    text-transform: uppercase;;
+}
+.program-area h1 {
+    font-weight: 100;
+    color: #1b3039;
+    line-height: 50px;
+}
+.program-area h1 span{
+    font-weight: 700;
+    font-size: 50px;
+}
+.program-img {
+    margin-right: -200px;
+}
+.program-txt {
+    background: rgba(250, 202, 64, 0.9) none repeat scroll 0 0;
+    color: #000000;
+    margin-top: 310px;
+    padding: 120px 30px 20px;
+}
+.program-carousel .owl-controls {
+    bottom: 29px;
+    position: absolute;
+    right: 374px;
+}
+.program-carousel .owl-controls .owl-buttons div {
+    background: #1e3441 none repeat scroll 0 0;
+    border-radius: 0;
+    color: #ffffff;
+    font-size: 28px;
+    opacity: 1;
+    padding: 6px 50px 1px;
+    transition: all 0.05s ease 0s;
+    margin: 1px;
+    transition: 0.4s;
+}
+.program-carousel .owl-controls .owl-buttons div:hover {
+    background: #faca40 none repeat scroll 0 0;
+    color: #ffffff;
+}
+.program-carousel .owl-pagination {
+    left: 0;
+    position: absolute;
+    top: 18px;
+}  
+/*----------------------------------------*/
+/*  7.  Client/Merchant-Benefits CSS
+/*----------------------------------------*/
+.clients-benefits-area {
+  background: #f7f7f7;
+  padding: 160px 0;
+}
+.merchant-benefits-area {
+  background: #ebebeb;
+  padding: 160px 0;
+}
+.benefits-content {
+  background: #fff none repeat scroll 0 0;
+  margin-top: 80px;
+  position: relative;
+}
+.benefits-content::after {
+  border: 5px solid #faca40;
+  bottom: 60px;
+  content: "";
+  left: 60px;
+  position: absolute;
+  right: 0;
+  top: 60px;
+  width: 100%;
+  z-index: 1;
+}
+.benefits-content.left {
+  padding: 100px 50px 180px 100px;
+}
+.benefits-content.left::after {
+  left: 60px;
+}
+.benefits-content.right {
+  padding: 100px 100px 80px 50px;
+}
+.benefits-content.right::after {
+  left: -60px;
+}
+.benefits-content h1 {
+  color: #faca40;
+  font-size: 36px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.benefits-content h1 span {
+  color: #1b3039;
+  font-size: 48px;
+  font-weight: 700;
+}
+.benefits-content ul li {
+  border-bottom: 1px solid #faca40;
+  font-size: 21px;
+  padding: 10px 0;
+}
+.benefits-content ul li:last-child{
+  border-bottom: none;
+}
+
+/*----------------------------------------*/
+/*  8.0  Merchant-Benefits CSS
+/*----------------------------------------*/
+
+.merchant-benefits {
+  background-color: #ebebeb;
+  padding: 160px 0;
+}
+.pl-none{
+    padding-left: 0;
+}
+.pr-none{
+    padding-right: 0;
+}
+.mb-whait-area {
+  background: #fff none repeat scroll 0 0;
+  height: 701px;
+  margin-top: 17%;
+}
+.mb-area{
+    position: relative;
+}
+.mb-border {
+  border: 5px solid #faca40;
+  height: 590px;
+  position: absolute;
+  width: 477px;
+  z-index: 10;
+  right: 7%;
+  top: 140px;
+}
+h3.mb-heading {
+  color: #e7b422;
+  padding-top: 20px;
+  text-transform: uppercase;
+}
+.h-line2 {
+  color: #435157;
+  font-size: 50px;
+  text-transform: uppercase;
+}
+.mb-content {
+  padding: 25px 23px 0 120px;
+}
+li.single-details {
+  border-bottom: 1px solid #E7B422;
+  padding-top: 13px;
+}
+ul.mb-details {
+  margin-top: 26px;
+}
+ul.mb-details>li:last-child {
+  border-bottom: none;
+}
+ul.mb-details > li:first-child {
+  padding-top: 0;
+}
+/*----------------------------------------*/
+/*  9.0  Microcraditors
+/*----------------------------------------*/
+.micro-craditors{
+    padding: 160px 0;
+    position: relative;
+    /*height: 950px;*/
+    z-index: 1;
+    background: linear-gradient(#f07072 0%, #fac349 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  }
+.micro-craditors::after{
+    position: absolute;
+    content: "";
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;   
+    background: url(img/mc-bg.jpg) no-repeat center center / cover;
+    opacity: 0.15;
+  }
+.mc-content {
+  background: #fff none repeat scroll 0 0;
+  min-height: 250px;
+  padding:76px 32px 0 32px;
+}
+.mc-content h5{
+    color: #faca40;
+}
+.mc-border {
+  border: 3px solid #faca40;
+  height: 46%;
+  left: 10%;
+  opacity: 0.5;
+  position: absolute;
+  top: 13%;
+  width: 80%;
+  z-index: 10;
+}
+h1.mc-heading {
+  color: #fff;
+  font-size: 54px;
+  font-weight: 100;
+  margin-bottom: 72px;
+  text-align: center;
+}
+.col-md-4.mc-item {
+  cursor: move;
+  width: 100%;
+}
+.mc-carasousal .owl-controls .owl-buttons div {
+  border: 1px solid rgba(255, 255, 255, 0.72);
+  color: #fff;
+  border-radius: 0;
+  background: transparent;
+  display: inline-block;
+  font-size: 19px;
+  font-weight: 300;
+  margin: 5px;
+  opacity: 0.5;
+  padding: 3px 45px;
+}
+/*----------------------------------------*/
+/*  10.0  Copyright CSS
+/*----------------------------------------*/
+footer {
+    background: #1b3039;
+    color: #ffffff;
+    padding: 30px 0;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 100;
+}
+#scrollUp {
+  background: rgba(250, 202, 64, 1) none repeat scroll 0 0;
+  border: 0 none;
+  bottom: 61px;
+  box-shadow: 0 3px 9px rgba(0, 0, 0, 0.13);
+  color: #000;
+  font-size: 33px;
+  height: 50px;
+  line-height: 50px;
+  right: 76px;
+  text-align: center;
+  width: 50px;
+}
+#scrollUp:hover {
+  background: rgba(250, 202, 64, 0.9);
+  box-shadow: 0px 3px 9px rgba(0, 0, 0, 0.3);
+}
+
+
+
+

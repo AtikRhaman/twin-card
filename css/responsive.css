@@ -1,0 +1,414 @@
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1169px) {
+  /*about*/
+.intro-area {
+  padding: 100px 0;
+}
+.intro-content h6 {
+  width: 100%;
+}
+/*Product & Solutions*/
+.single-product-solutions {
+  padding: 150px 0;
+}
+.product-solutions-carousel .owl-controls .owl-buttons div {
+  top: 8%;
+}
+.product-solutions-carousel .owl-controls .owl-buttons .owl-next {
+  right: 40%;
+}
+.product-solutions-carousel .owl-controls .owl-buttons .owl-prev {
+  left: 40%;
+}
+.p-s-title {
+  height: 300px;
+  margin-right: -500px;
+}
+.p-s-content {
+  padding: 40px 50px;
+}
+.p-s-title h1 {
+  font-size: 40px;
+}
+.p-s-title h1 span {
+  font-size: 60px;
+}
+} 
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+/*  1.  Banner CSS*/
+.intro-txt {
+  padding-top: 30px;
+}
+.intro-txt h3 {
+  width: 100%;
+  padding-bottom: 20px;
+}
+.hero-banner .going-down {
+  left: 0;
+}
+.hero-banner .going-down i {
+  font-size: 22px;
+  color: #000;
+}
+/*about*/
+.intro-area {
+  padding: 100px 0;
+}
+.intro-content h6 {
+  width: 100%;
+}
+/*Product & Solutions*/
+.single-product-solutions {
+  padding: 150px 0;
+}
+.p-s-title {
+  height: auto;
+  margin-right: 0;
+  padding-left: 0;
+  text-align: center;
+  padding: 30px 0;
+}
+.p-s-content {
+  margin-top: 0;
+  padding: 25px;
+  margin: 0 -25px;
+  background-color: transparent;
+}
+.p-s-content h5 {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 27px;
+  text-align: justify;
+}
+.single-product-solutions.digital-cash::after {
+  opacity: 0.20;
+}
+.product-solutions-carousel .owl-controls .owl-buttons div {
+  top: 8%;
+}
+.product-solutions-carousel .owl-controls .owl-buttons .owl-next {
+  right: 30%;
+}
+.product-solutions-carousel .owl-controls .owl-buttons .owl-prev {
+  left: 30%;
+}
+#scrollUp {
+  font-size: 30px;
+  height: 40px;
+  line-height: 40px;
+  width: 40px;
+}
+.program-txt {
+  margin-right: -15px;
+  margin-top: 0;
+  padding: 20px;
+  text-align: center;
+}
+.program-carousel .owl-controls {
+  position: absolute;
+  right: 0px;
+  top: -68px;
+}
+.program-carousel .owl-controls .owl-buttons div {
+  color: #ffffff;
+  font-size: 14px;
+  padding: 5px 15px;
+}
+.program-area-title {
+  font-size: 113px; 
+  top: -39px;
+}
+h1, .h1 {
+  font-size: 48px;
+}
+.program-area h1 span {
+  font-size: 44px;
+}
+} 
+/* small mobile :320px. */
+@media (max-width: 767px) {
+.container {width:300px}
+/*  3.  Banner CSS*/
+h1{
+  font-size: 37px;
+}
+.logo {
+  padding: 24px 25px 25px 0;
+}
+.intro-txt {
+  padding-top: 30px;
+}
+.intro-txt h1 {
+  font-size: 40px;
+  line-height: 25px;
+  padding-bottom: 5px;
+}
+.animated-headline {
+  font-size: 80%;
+}
+.hero-banner .going-down {
+  bottom: 0;
+  font-size: 28px;
+  height: 72px;
+  left: 40%;
+  padding: 22px 14px;
+  width: 57px;
+}
+.going-down i {
+  display: inline-block;
+  font-size: 28px;
+  padding: 3px 2px;
+}
+.hero-banner .going-down i {
+ color: #000;
+}
+.video-frame {
+  height: auto;
+  overflow: hidden;
+}
+/*about*/
+.intro-area .container {
+  width: 100%;
+  padding: 0;
+}
+.intro-area {
+  padding: 0;
+}
+.intro-content {
+  padding: 90px 25px;
+  margin-top: -1px;
+}
+.intro-content h2 {
+  font-size: 30px;
+}
+.intro-content h6 {
+  font-size: 17px;
+  line-height: 27px;
+  text-align: justify;
+}
+.intro-content h6 {
+  width: 100%;
+}
+/*Product & Solutions*/
+.single-product-solutions {
+  padding: 110px 0;
+}
+.p-s-title {
+  height: auto;
+  margin-right: 0;
+  padding-left: 0;
+  text-align: center;
+  padding: 30px 0;
+}
+.p-s-title h1 {
+  font-size: 45px;
+}
+.p-s-title h1 span {
+  font-size: 55px;
+}
+.p-s-content {
+  margin-top: 0;
+  padding: 25px;
+  margin: 0 -25px;
+  background-color: transparent;
+}
+.p-s-content h5 {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 27px;
+  text-align: justify;
+}
+.single-product-solutions.digital-cash::after {
+  opacity: 0.20;
+}
+.product-solutions-carousel .owl-controls .owl-buttons div {
+  top: 4%;
+}
+.product-solutions-carousel .owl-controls .owl-buttons .owl-next {
+  right: 30%;
+}
+.product-solutions-carousel .owl-controls .owl-buttons .owl-prev {
+  left: 30%;
+}
+/*Explore Services*/
+.explore-services-area {
+  padding: 90px 0;
+}
+.explore-services-title h1 {
+  font-size: 40px;
+}
+/*Micro Craditors*/
+h1.mc-heading {
+  font-size: 36px;
+  margin-bottom: 36px;
+}
+.micro-craditors {
+  padding: 34px 0;
+}
+/*Benifits*/
+.benefits-content.left::after {
+  left: 0;
+}
+.benefits-content::after {
+  width: 100%;
+}
+.benefits-content.left {
+  padding: 29px 33px 53px 34px;
+}
+.benefits-content.right {
+  padding: 35px 35px 79px;
+}
+.clients-benefits-area {
+  padding: 40px 0;
+}
+.benefits-content.right::after {
+  left: 12px;
+}
+.benefits-content::after {
+  border: 2px solid #faca40;
+  content: "";
+  left: 60px;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  top: 0;
+}
+/*Programme*/
+.program-area-title {
+  font-size: 70px;
+}
+
+.benefits-content h1 span {
+  font-size: 40px;
+}
+.benefits-content ul li {
+  font-size: 18px;
+}
+.merchant-benefits-area {
+  padding: 40px 0;
+}
+.pr-none {
+  padding-right: 15px;
+}
+.pl-none {
+  padding-left: 15px;
+}
+.benefits-content {
+  margin-top: 0;
+}
+.benefits-content.right::after {
+  left: 0;
+}
+.clients-benefits-area .col-md-7{
+  float: right;
+}
+.clients-benefits-area .col-md-5{
+  float: right;
+}
+/*Program*/
+.program-txt {
+  padding: 30px 30px 20px;
+  margin-top: 0;
+}
+.program-txt h5 {
+  font-size: 16px;
+  line-height: 28px;
+}
+#scrollUp {
+  bottom: 92px;
+  font-size: 20px;
+  height: 30px;
+  line-height: 30px;
+  right: 13px;
+  width: 30px;
+}
+.program-area h1 span {
+  font-size: 26px;
+}
+.program-area-title {
+  position: absolute;
+  top: 0;
+}
+.program-area h1 {
+  line-height: 25px;
+}
+.explore-services-area {
+  padding: 14px 0;
+}
+.services-number {
+  font-size: 35px;
+  left: 30px;
+  top: 31px;
+}
+.single-service-content h5 {
+  line-height: 18px;
+  font-size: 14px;
+}
+.animated-headline {
+  font-size: 55%;
+}
+.program-carousel .owl-controls {
+  position: absolute;
+  right: 0;
+  top: -42px;
+}
+.program-carousel .owl-controls .owl-buttons div {
+  color: #ffffff;
+  font-size: 14px;
+  padding: 5px 15px;
+}
+.program-area-title {
+  font-size: 67px;
+  top: 0;
+}
+h1, .h1 {
+  font-size: 48px;
+}
+.program-area h1 span {
+  font-size: 18px;
+}
+h1, .h1 {
+  font-size: 26px;
+}
+}
+
+/* Large Mobile :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.container {width:450px}
+/*Banner*/
+.hero-banner .going-down {
+  bottom: 0;
+  left: 40%;
+}
+.intro-area {
+  background: #eeeeee url("img/logo-outline.png") no-repeat scroll right top / 65% auto;
+  padding: 46px 0;
+}
+/*about*/
+.intro-area .container {
+  width: 100%;
+  padding: 0;
+}
+.intro-area {
+  padding: 0;
+}
+.intro-content {
+  padding: 90px 25px;
+  margin-top: -1px;
+}
+.intro-content h2 {
+  font-size: 40px;
+}
+.intro-content h6 {
+  font-size: 20px;
+  line-height: 33px;
+  text-align: justify;
+}
+.intro-content h6 {
+  width: 100%;
+}
+
+
+}
+ 
